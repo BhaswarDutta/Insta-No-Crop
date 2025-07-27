@@ -4,6 +4,10 @@
 
 -----
 
+![image_to_no_crop](https://github.com/BhaswarDutta/Insta-No-Crop/blob/master/image_to_no_crop.jpg?raw=true)
+
+-----
+
 ## ✨ Features
 
   * Preserves original image content without cropping
@@ -36,7 +40,7 @@ Make sure you have Python 3 and [Pillow](https://python-pillow.org/) installed:
 ```bash
 pip install pillow
 ```
-Alternatively use uv to process the same
+**Alternatively use uv to process the same**
 
 ### 3\. Prepare Your Images
 

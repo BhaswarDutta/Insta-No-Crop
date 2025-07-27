@@ -10,6 +10,7 @@
   * Resizes and centers images to fit Instagram’s 1080×1350 (4:5) dimensions
   * Automatically adds white space and a consistent border
   * Supports multiple image formats: `.jpg`, `.jpeg`, `.png`, `.webp`, `.bmp`, `.tiff`
+  * Batch converts images
 
 -----
 
@@ -35,6 +36,7 @@ Make sure you have Python 3 and [Pillow](https://python-pillow.org/) installed:
 ```bash
 pip install pillow
 ```
+Alternatively use uv to process the same
 
 ### 3\. Prepare Your Images
 
@@ -44,7 +46,7 @@ pip install pillow
 ### 4\. Run the Script
 
 ```bash
-python insta_no_crop.py
+python main.py
 ```
 
 Processed images will be saved in the `exports/` folder.
